@@ -1,4 +1,4 @@
-# Consumer-compliance-Text-Mining-
+# Consumer-compliance-Text-Mining
 
 # Text Mining
 # Predict performance ratings of banks based on Grievance desriptions of their customers.
