@@ -22,7 +22,18 @@ You need to install Python software
 Python 3
 Jupyter Notebook
 ```
+### Add to git and push
 
+After you've filled your README.md file with your own project's text, you should push it to your GitHub project:
+```
+cd /project path
+git add https://github.com/ankit025jain/Consumer-compliance-Text-Mining-
+git commit -m "Enter commit message here"
+git push
+
+```
+
+This adds the README.md file to your git repository, creates a commit for it and pushes it to GitHub (or other preferred remote repository).
 ## Author
 
 * **Ankit Jain** - *Initial work* - [Ankit Jain](https://github.com/ankit025jain)
