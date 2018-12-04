@@ -34,6 +34,52 @@ git push
 
 ```
 
+## Steps to be followed:
+
+```
+Step1: Clone or download using this link(https://github.com/ankit025jain/Consumer-compliance-Text-Mining.git)
+
+Step2: Run the preprocessing and clustering file (https://github.com/ankit025jain/Consumer-compliance-Text-Mining/tree/master/Preprocesing%20and%20clustering)
+
+Step3: Followed by preprocessing and clustering file, Run the model building files (https://github.com/ankit025jain/Consumer-compliance-Text-Mining/tree/master/Model%20Building)
+
+Note: Cluster1, cluster2, cluster3, cluster4 are obtained by different methods followed in preprocessing of the text data.
+```
+### Folder information and files description:
+
+```
+Consumer-compliance-Text-Mining/Dataset/ - Contains the dataset. 
+    i) GrievancesData_Train.csv - contains the train data without target.
+    ii) Train.csv - contains BankID and BankGrade(target) columns data.
+    iii) GrievancesData_Test.csv - contains the test data without target.
+    iv) Test.csv - contains BankID column on which our model should do the predictions.
+    v)ftca.xlsx - contains the data copied from ftca.pdf (ftca.pdf can be found in this link (https://www.federalreserve.gov/boarddocs/supmanual/cch/ftca.pdf)
+    vi)ftca and cch.xlsx - Content copied from ftca.pdf and cch.pdf (cch.pdf can be found in this link- (https://www.federalreserve.gov/boarddocs/supmanual/cch/200711/cch200711.pdf)
+
+Refer (https://github.com/ankit025jain/Consumer-compliance-Text-Mining/tree/master/Dataset)
+
+Consumer-compliance-Text-Mining/Preprocesing and clustering/ - Contains the preprocessing and clustering .ipynb file.
+
+Refer (https://github.com/ankit025jain/Consumer-compliance-Text-Mining/tree/master/Preprocesing%20and%20clustering)
+
+Consumer-compliance-Text-Mining/Model Building dataset/ - Dataset obtained after preprocessing and clustering which can be used for model building.
+    i) final_train_data.csv - Train data for model building
+    ii) final_test_data.csv - Test data for model building
+
+Refer (https://github.com/ankit025jain/Consumer-compliance-Text-Mining/tree/master/Model%20Building%20dataset)
+
+Consumer-compliance-Text-Mining/Model Building/ - Contains the code used for model building.
+  Major difference in the below models is the cluster values. Please refer below to get more insights.
+    i)Model_Building_Cluster_1.ipynb - Cluster values used from cluster 1 which was obtained from doc2vec of ftca document and the Grievace description column and then performing clustering on it.
+    ii) Model_Building_Cluster_2.ipynb - Cluster values used from cluster 2 which was obtained from doc2vec of ftca document and the Cleaned Grievace description column(Text Preprocessed Grievance description column) and then performing clustering on it.
+    iii) Model_Building_Cluster_3.ipynb - Cluster values used from cluster 3 which was obtained from doc2vec of (ftca document + consumer compiance handbook[cch]) and the Grievace description column and then performing clustering on it.
+    iv) Model_Building_Cluster_4.ipynb - Cluster values used from cluster 4 which was obtained from tfidf of grievance description column and then performing clustering on it.
+
+Refer (https://github.com/ankit025jain/Consumer-compliance-Text-Mining/tree/master/Model%20Building)
+
+```
+**Please feel free to connect with the author in case you get stuck anywhere or if you are facing any issues**
+
 ## Author
 
 * **Ankit Jain** - *Initial work* - [Ankit Jain](https://github.com/ankit025jain)
@@ -55,4 +101,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * Hard work
 * etc
 
-#Text mining #Risk Compliance #Compliance #INSOFE #Banks #Consumer #Grievances #Inspiration #Machine Learning #Deep Learning #AI #Artifitial Intelligence #Accuracy #SMOTE #Python #Logistic regression #Decision trees #random forest #XGBoost #Adaboost #Gaussian naive bayes #Naive bayes #SGD #sequential #functional #Programming #Linear regression #LSTM #GRU #Artifitial neural network #Deep learning #Long Short Term Memory #CNN #Convolutional neural network #Clustering # #Ensemble Methods #ensemble.AdaBoostClassifier() #ensemble.BaggingClassifier() #ensemble.ExtraTreesClassifier() #ensemble.GradientBoostingClassifier() ensemble.RandomForestClassifier() #Gaussian Processes #gaussian_process.GaussianProcessClassifier() #GLM #linear_model.LogisticRegressionCV() #linear_model.PassiveAggressiveClassifier() #linear_model.RidgeClassifierCV() #linear_model.SGDClassifier() #linear_model.Perceptron() #Navies Bayes #naive_bayes.BernoulliNB() #naive_bayes.GaussianNB() #Nearest Neighbor #neighbors.KNeighborsClassifier() #SVM #svm.SVC(probability=True) #svm.NuSVC(probability=True) #svm.LinearSVC() #Trees #tree.DecisionTreeClassifier() #tree.ExtraTreeClassifier() #Discriminant Analysis #discriminant_analysis.LinearDiscriminantAnalysis() #discriminant_analysis.QuadraticDiscriminantAnalysis() #xgboost: http://xgboost.readthedocs.io/en/latest/model.html #XGBClassifier()  
+#Text mining #Risk Compliance #Compliance #INSOFE #Banks #Consumer #Grievances #Inspiration #Machine Learning #Deep Learning #AI #Artifitial Intelligence #Accuracy #SMOTE #Python #Logistic regression #Decision trees #random forest #XGBoost #Adaboost #Gaussian naive bayes #Naive bayes #SGD #sequential #functional #Programming #Linear regression #LSTM #GRU #Artifitial neural network #Deep learning #Long Short Term Memory #CNN #Convolutional neural network #Clustering # #Ensemble Methods #ensemble.AdaBoostClassifier() #ensemble.BaggingClassifier() #ensemble.ExtraTreesClassifier() #ensemble.GradientBoostingClassifier() ensemble.RandomForestClassifier() #Gaussian Processes #gaussian_process.GaussianProcessClassifier() #GLM #linear_model.LogisticRegressionCV() #linear_model.PassiveAggressiveClassifier() #linear_model.RidgeClassifierCV() #linear_model.SGDClassifier() #linear_model.Perceptron() #Navies Bayes #naive_bayes.BernoulliNB() #naive_bayes.GaussianNB() #Nearest Neighbor #neighbors.KNeighborsClassifier() #SVM #svm.SVC(probability=True) #svm.NuSVC(probability=True) #svm.LinearSVC() #Trees #tree.DecisionTreeClassifier() #tree.ExtraTreeClassifier() #Discriminant Analysis #discriminant_analysis.LinearDiscriminantAnalysis() #discriminant_analysis.QuadraticDiscriminantAnalysis() #XGBClassifier() #Happy #HappyGithubing.
