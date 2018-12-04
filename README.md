@@ -88,7 +88,7 @@ Refer (https://github.com/ankit025jain/Consumer-compliance-Text-Mining/tree/mast
 
 See also the list of [contributors](https://github.com/ankit025jain/Consumer-compliance-Text-Mining/graphs/contributors) who participated in this project.
 
-## What more could i have tried?
+## What more you can try?
 
 I wanted to try LSTM or Skip thoughts approach before the classification of the Grievance description into UFDP and Non UFDP by clustering algorithm.
 
