@@ -1,6 +1,7 @@
 # Consumer-compliance-Text-Mining
 
 # Text Mining
+
 # Predict performance ratings of banks based on Grievance desriptions of their customers.
 
 Generally, the consumer grievances against Banks broadly fall into two categories; “Un-fair and deceptive business practice related (UFDP)” and “efficiency related (not UFDP)”.
@@ -22,9 +23,9 @@ You need to install Python software
 Python 3
 Jupyter Notebook
 ```
+
 ### Add to git and push
 
-After you've filled your README.md file with your own project's text, you should push it to your GitHub project:
 ```
 cd /project path
 git add https://github.com/ankit025jain/Consumer-compliance-Text-Mining-
@@ -33,12 +34,13 @@ git push
 
 ```
 
-This adds the README.md file to your git repository, creates a commit for it and pushes it to GitHub (or other preferred remote repository).
 ## Author
 
 * **Ankit Jain** - *Initial work* - [Ankit Jain](https://github.com/ankit025jain)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+**Contributing to this code is much appreciated:)**
+
+See also the list of [contributors](https://github.com/ankit025jain/Consumer-compliance-Text-Mining/graphs/contributors) who participated in this project.
 
 ## License
 
@@ -46,7 +48,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* INSOFE for conducting exam on this topic.
+* INSOFE for conducting hackathon on this topic.
 * Inspiration
 * Motivation
 * Smartwork
