@@ -88,6 +88,14 @@ Refer (https://github.com/ankit025jain/Consumer-compliance-Text-Mining/tree/mast
 
 See also the list of [contributors](https://github.com/ankit025jain/Consumer-compliance-Text-Mining/graphs/contributors) who participated in this project.
 
+## What more you can try?
+
+I wanted to try LSTM or Skip thoughts approach before the classification of the Grievance description into UFDP and Non UFDP by clustering algorithm.
+
+A detailed description of skip thoughts can be found in this link: https://medium.com/@sanyamagarwal/my-thoughts-on-skip-thoughts-a3e773605efa
+
+Also refer this link for skip thoughts summarization and clustering which is another approach to this problem (https://medium.com/jatana/unsupervised-text-summarization-using-sentence-embeddings-adb15ce83db1)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
@@ -101,4 +109,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * Hard work
 * etc
 
-#Text mining #Risk Compliance #Compliance #INSOFE #Banks #Consumer #Grievances #Inspiration #Machine Learning #Deep Learning #AI #Artifitial Intelligence #Accuracy #SMOTE #Python #Logistic regression #Decision trees #random forest #XGBoost #Adaboost #Gaussian naive bayes #Naive bayes #SGD #sequential #functional #Programming #Linear regression #LSTM #GRU #Artifitial neural network #Deep learning #Long Short Term Memory #CNN #Convolutional neural network #Clustering # #Ensemble Methods #ensemble.AdaBoostClassifier() #ensemble.BaggingClassifier() #ensemble.ExtraTreesClassifier() #ensemble.GradientBoostingClassifier() ensemble.RandomForestClassifier() #Gaussian Processes #gaussian_process.GaussianProcessClassifier() #GLM #linear_model.LogisticRegressionCV() #linear_model.PassiveAggressiveClassifier() #linear_model.RidgeClassifierCV() #linear_model.SGDClassifier() #linear_model.Perceptron() #Navies Bayes #naive_bayes.BernoulliNB() #naive_bayes.GaussianNB() #Nearest Neighbor #neighbors.KNeighborsClassifier() #SVM #svm.SVC(probability=True) #svm.NuSVC(probability=True) #svm.LinearSVC() #Trees #tree.DecisionTreeClassifier() #tree.ExtraTreeClassifier() #Discriminant Analysis #discriminant_analysis.LinearDiscriminantAnalysis() #discriminant_analysis.QuadraticDiscriminantAnalysis() #XGBClassifier() #Happy #HappyGithubing.
+#Text mining #Risk Compliance #Compliance #INSOFE #Banks #Consumer #Grievances #Inspiration #Machine Learning #Deep Learning #AI #Artifitial Intelligence #Accuracy #SMOTE #Python #Logistic regression #Decision trees #random forest #XGBoost #Adaboost #Gaussian naive bayes #Naive bayes #SGD #sequential #functional #Programming #Linear regression #LSTM #GRU #Artifitial neural network #Deep learning #Long Short Term Memory #CNN #Convolutional neural network #Clustering # #Ensemble Methods #ensemble.AdaBoostClassifier() #ensemble.BaggingClassifier() #ensemble.ExtraTreesClassifier() #ensemble.GradientBoostingClassifier() ensemble.RandomForestClassifier() #Gaussian Processes #gaussian_process.GaussianProcessClassifier() #GLM #linear_model.LogisticRegressionCV() #linear_model.PassiveAggressiveClassifier() #linear_model.RidgeClassifierCV() #linear_model.SGDClassifier() #linear_model.Perceptron() #Navies Bayes #naive_bayes.BernoulliNB() #naive_bayes.GaussianNB() #Nearest Neighbor #neighbors.KNeighborsClassifier() #SVM #svm.SVC(probability=True) #svm.NuSVC(probability=True) #svm.LinearSVC() #Trees #tree.DecisionTreeClassifier() #tree.ExtraTreeClassifier() #Discriminant Analysis #discriminant_analysis.LinearDiscriminantAnalysis() #discriminant_analysis.QuadraticDiscriminantAnalysis() #XGBClassifier() #Best text mining #Best project #Happy #HappyGithubing.
