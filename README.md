@@ -2,9 +2,9 @@
 
 # Text Mining
 
-# Predict performance ratings of banks based on Grievance desriptions of their customers.
-
 # Problem Statement
+
+# Predict performance ratings of banks based on Grievance desriptions of their customers.
 
 Generally, the consumer grievances against Banks broadly fall into two categories; “Un-fair and deceptive business practice related (UFDP)” and “efficiency related (not UFDP)”.
 It is expected that the Bank monitors compliance management system on a regular basis to “self-identify weaknesses and take corrective action” by closing grievance (irrespective of type of grievance) with or without monetary relief etc. Similarly, where grievance is closed with explanation, resulting in a potential dispute, it is expected that “consumer grievance response” is measured in terms of effectiveness of communication. While the “number of grievances” involving Unfair and deceptive practices, as defined under Section 5 (Unfair or Deceptive Acts) of Federal Trade Commission Act, USA (Please refer to the detailed discussion of Section 5 as applicable to banks at consumer compliance handbook at https://www.federalreserve.gov/boarddocs/supmanual/cch/ftca.pdf), out of all grievances is an important measure, it is also important for the Regulator to keep a tab on “duration” (persistence of violation over a long period of time) of such grievances.
